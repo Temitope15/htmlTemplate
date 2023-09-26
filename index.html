@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <meta name="description" content="">
+    <meta name="author" content="your site name">
+
+    <!-- open graph protocol -->
+    <meta property="og:title" content="A brief description">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.example.com">
+    <meta property="og:description" content="Another brief description">
+    <meta property="og:image" content="image.png">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Name of website">
+    <!-- icons -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form action="" method="post">
+        <div>
+            <label for="booking_people">Range</label>
+            <input type="range" name="booking_people" id="booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value">
+            <output>4</output>
+        </div>
+    </form>
+</body>
+</html>
